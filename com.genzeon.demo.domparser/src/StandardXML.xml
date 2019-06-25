@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Standard.xsl"?>
+<Order DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="MG"
+    OrderHeaderKey="20180524225641157892574" OrderNo="600000000339"
+    OrderType="RARETAIL" evaluate="yes">
+    <Extn ExtnBONotificationFlag="N" ExtnIsWaveComplete="Y"/>
+    <OrderLines>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225850157892965" OrderedQty="1"
+            PrimeLineNo="7" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225850157892965"
+                    OrderLineScheduleKey="201805242231585157893008"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251178071157896923"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242231585157893008"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251193071157896986"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242231585157893008"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225850157892966" OrderedQty="1"
+            PrimeLineNo="8" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225850157892966"
+                    OrderLineScheduleKey="201805242292585157893010"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251119071157896924"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242292585157893010"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251155071157896987"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242292585157893010"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225641157892578" OrderedQty="1"
+            PrimeLineNo="4" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225641157892578"
+                    OrderLineScheduleKey="201805242283564157892611"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251165071157896925"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242283564157892611"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251193071157896979"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242283564157892611"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225641157892576" OrderedQty="1"
+            PrimeLineNo="2" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="03"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225641157892576"
+                    OrderLineScheduleKey="201805242226564157892613"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251170071157896926"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242226564157892613"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896918"
+                            OrderReleaseStatusKey="201805251107071157896977"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242226564157892613"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524230415157893326" OrderedQty="1"
+            PrimeLineNo="9" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524230415157893326"
+                    OrderLineScheduleKey="201805242352041157893369"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251142071157896927"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242352041157893369"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896919"
+                            OrderReleaseStatusKey="201805251115071157896980"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242352041157893369"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225850157892963" OrderedQty="1"
+            PrimeLineNo="5" SCAC="PICKUP" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="04"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225850157892963"
+                    OrderLineScheduleKey="201805242243585157893012"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251177071157896928"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242243585157893012"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896920"
+                            OrderReleaseStatusKey="201805251114071157896984"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242243585157893012"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225641157892577" OrderedQty="1"
+            PrimeLineNo="3" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225641157892577"
+                    OrderLineScheduleKey="201805242267564157892615"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251149071157896929"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242267564157892615"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251122071157896978"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242267564157892615"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225850157892964" OrderedQty="1"
+            PrimeLineNo="6" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="05"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225850157892964"
+                    OrderLineScheduleKey="201805242213585157893014"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251104071157896930"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242213585157893014"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896921"
+                            OrderReleaseStatusKey="201805251137071157896985"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242213585157893014"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524230415157893328" OrderedQty="1"
+            PrimeLineNo="11" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524230415157893328"
+                    OrderLineScheduleKey="201805242366041157893371"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251180071157896931"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242366041157893371"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251133071157896982"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242366041157893371"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524225641157892575" OrderedQty="1"
+            PrimeLineNo="1" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="02"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524225641157892575"
+                    OrderLineScheduleKey="201805242251564157892617"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251196071157896932"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242251564157892617"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896922"
+                            OrderReleaseStatusKey="201805251184071157896976"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242251564157892617"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524230415157893327" OrderedQty="1"
+            PrimeLineNo="10" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524230415157893327"
+                    OrderLineScheduleKey="201805242389041157893373"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251102071157896933"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242389041157893373"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896919"
+                            OrderReleaseStatusKey="201805251195071157896981"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242389041157893373"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+        <OrderLine CarrierServiceCode="FURNITURE_REGULAR1" KitCode=""
+            LevelOfService="REGULAR" MaxLineStatus="3200.050"
+            MinLineStatus="3200.050"
+            OrderLineKey="20180524230415157893329" OrderedQty="1"
+            PrimeLineNo="12" SCAC="HW_CARRIER" ShipNode="CNRDTC"
+            Status="Dropped For Fulfillment" SubLineNo="1">
+            <Extn ExtnBONotificationFlag="N" ExtnGroupID="01"
+                ExtnNominationCounter="0" ExtnOpenAlertFlag="N" ExtnVariance="0">
+                <WSITempOrderLineDataList/>
+            </Extn>
+            <Item ItemDesc="" ItemID="11949c8c73c" ItemShortDesc=""
+                ProductClass="" ProductLine="FN" UnitOfMeasure="EACH"/>
+            <LinePriceInfo LineTotal="0.00" ListPrice="0.00"
+                RetailPrice="0.00" TaxableFlag="N" UnitPrice="0.00"/>
+            <OrderDates>
+                <OrderDate DateTypeId="ECDDDeliveryDate" ExpectedDate="2018-04-26T15:55:30-07:00"/>
+                <OrderDate DateTypeId="ReqDeliveryDate"/>
+            </OrderDates>
+            <PersonInfoShipTo Country="US"/>
+            <ItemDetails CanUseAsServiceTool="N"
+                Createprogid="QEHttpTester"
+                Createts="2017-11-21T12:50:09-08:00"
+                Createuserid="admin" DisplayItemId="11949c8c73c"
+                GlobalItemID="" InheritAttributesFromClassification="Y"
+                IsShippingCntr="N" ItemGroupCode="PROD"
+                ItemID="11949c8c73c" ItemKey="20171121125009150065915"
+                Lockid="1" MaxModifyTS="2017-11-21T12:50:09-08:00"
+                Modifyprogid="QEHttpTester"
+                Modifyts="2017-11-21T12:50:09-08:00"
+                Modifyuserid="admin" OrganizationCode="MG" UnitOfMeasure="EACH">
+                <InventoryParameters LeadTime="0" MinNotificationTime="0"/>
+                <Extn ExtnDirectShipInd="N"/>
+            </ItemDetails>
+            <Schedules>
+                <Schedule
+                    ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                    ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                    OrderHeaderKey="20180524225641157892574"
+                    OrderLineKey="20180524230415157893329"
+                    OrderLineScheduleKey="201805242328041157893375"
+                    ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                    Quantity="1" ScheduleNo="2" ShipNode="CNRDTC">
+                    <ScheduleTranQuantity Quantity="1.0" TransactionalUOM="EACH"/>
+                </Schedule>
+            </Schedules>
+            <FromOrderReleaseStatuses>
+                <FromOrderReleaseStatus DatesChanged="N" MovedQty="1.00"
+                    OrderReleaseStatusKey="201805251159071157896934"
+                    PipelineKey="200802011258545828" Status="3200"
+                    StatusDate="2018-05-25T11:07:10-07:00" StatusQty="0" TotalQuantity="1">
+                    <FromOrderLineSchedule BatchNo=""
+                        ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                        ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                        LotNumber=""
+                        OrderLineScheduleKey="201805242328041157893375"
+                        ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                        RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                    <ToOrderReleaseStatuses>
+                        <ToOrderReleaseStatus MovedQty="1"
+                            OrderReleaseKey="20180525110710157896917"
+                            OrderReleaseStatusKey="201805251139071157896983"
+                            PipelineKey="200802011258545828"
+                            Status="3200"
+                            StatusDate="2018-05-25T11:07:12-07:00"
+                            StatusQty="1" TotalQuantity="1">
+                            <ToOrderLineSchedule BatchNo=""
+                                ExpectedDeliveryDate="2018-06-01T18:00:00-07:00"
+                                ExpectedShipmentDate="2018-05-29T18:00:00-07:00"
+                                LotNumber=""
+                                OrderLineScheduleKey="201805242328041157893375"
+                                ProductAvailabilityDate="2018-05-25T00:00:00-07:00"
+                                RevisionNo="" ShipNode="CNRDTC" TagNumber=""/>
+                        </ToOrderReleaseStatus>
+                    </ToOrderReleaseStatuses>
+                </FromOrderReleaseStatus>
+            </FromOrderReleaseStatuses>
+        </OrderLine>
+    </OrderLines>
+</Order>
