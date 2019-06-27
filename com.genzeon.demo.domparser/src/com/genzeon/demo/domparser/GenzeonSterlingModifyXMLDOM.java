@@ -33,7 +33,7 @@ public class GenzeonSterlingModifyXMLDOM {
  
 
 public static void main(String[] args) {
-        String filePath = "C:\\Users\\AShinde\\Documents\\workspace-sts-3.9.5.RELEASE\\com.genzeon.demo.domparser\\src\\StandardXML.xml";
+        String filePath = "C:\\Users\\AShinde\\git\\genzeonDemoDomParser\\com.genzeon.demo.domparser\\src\\StandardXML.xml";
         File xmlFile = new File(filePath);
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder;
@@ -50,7 +50,7 @@ public static void main(String[] args) {
 TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource source = new DOMSource(doc1);
-            StreamResult result = new StreamResult(new File("C:\\Users\\AShinde\\Documents\\workspace-sts-3.9.5.RELEASE\\com.genzeon.demo.domparser\\src\\StandardModifiedXML.xml"));
+            StreamResult result = new StreamResult(new File("C:\\Users\\AShinde\\git\\genzeonDemoDomParser\\com.genzeon.demo.domparser\\src\\StandardModifiedXML.xml"));
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             transformer.transform(source, result);
             System.out.println("XML file updated successfully");
