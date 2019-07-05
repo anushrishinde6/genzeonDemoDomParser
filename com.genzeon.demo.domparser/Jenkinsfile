@@ -5,6 +5,7 @@ pipeline {
             steps {
                 
                 echo 'build stage'
+                git 'https://github.com/anushrishinde6/genzeonDemoDomParser.git'
             }
         }
     
@@ -12,6 +13,18 @@ pipeline {
             
             steps {
                 echo 'test stage'
+                script 
+                {
+                   withAnt(installation: 'myinstall') {
+    			   dir("scoring") {
+    			
+    		     	if (isUnix()) {
+      		         sh "ant mytarget"
+    			    } else {
+      			     bat "ant main"
+      			}
+    			}
+}
             }
         }
         
