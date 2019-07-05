@@ -15,7 +15,7 @@ pipeline {
                 echo 'test stage'
                 script 
                 {
-                   withAnt(installation: 'myinstall') {
+                   withAnt(installation: 'C:\Users\AShinde\Downloads\Apache-Ant\apache-ant-1.10.6\bin') {
     			   dir("scoring") {
     			
     		     	if (isUnix()) {
