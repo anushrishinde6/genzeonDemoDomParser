@@ -22,11 +22,11 @@ pipeline {
       		         sh "ant mytarget"
     			    } else {
       			     bat "ant main"
-      			}
+      				}
     			}
-}
-            }
-        }
+    		}
+         }
+     }
         
     stage('deployment') {
             
