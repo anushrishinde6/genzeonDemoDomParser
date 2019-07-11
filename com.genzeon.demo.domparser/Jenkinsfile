@@ -25,7 +25,19 @@ pipeline {
       				}
     			}
     		}
-         
+        
+        script 
+                {
+                  
+    			   dir("C:\\Users\\AShinde\\Desktop") {
+    			
+    		     	if (isUnix()) {
+      		         sh "ant main"
+    			    } else {
+      			     bat "abc.cmd"
+      				}
+    			}
+    		} 
      }
   }
         
