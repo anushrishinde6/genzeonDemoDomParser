@@ -13,18 +13,21 @@ pipeline {
             
             steps {
                 echo 'test stage'
-                
+                script 
+                {
                   withAnt(installation: 'C:\\Users\\AShinde\\Downloads\\Apache-Ant\\apache-ant-1.10.6\\bin') {
-    			   dir(".") {
-    				if (isUnix()) {
-      		         sh "ant mytarget"
+    			   dir("scoring") {
+    			
+    		     	if (isUnix()) {
+      		         sh "ant main"
     			    } else {
       			     bat "ant main"
       				}
     			}
-         	}
-     	}
-  	}
+    		}
+         }
+     }
+  }
         
     stage('deployment') {
             
