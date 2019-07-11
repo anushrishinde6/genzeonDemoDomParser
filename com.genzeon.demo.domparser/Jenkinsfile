@@ -15,7 +15,7 @@ pipeline {
                 echo 'test stage'
                 script 
                 {
-                  withAnt(installation: 'C:\\Users\\AShinde\\Downloads\\Apache-Ant\\apache-ant-1.10.6\\bin') {
+                  
     			   dir("C:\\Users\\AShinde\\git\\genzeonDemoDomParser\\com.genzeon.demo.domparser") {
     			
     		     	if (isUnix()) {
@@ -25,7 +25,7 @@ pipeline {
       				}
     			}
     		}
-         }
+         
      }
   }
         
