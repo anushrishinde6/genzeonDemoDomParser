@@ -7,6 +7,36 @@ pipeline {
                 echo 'build stage'
                 git 'https://github.com/anushrishinde6/genzeonDemoDomParser.git'
             }
+            
+            
+            parallel linux: {
+        node('linux') {
+            checkout scm
+            try {
+                unstash 'app'
+                sh 'make check'
+            }
+            finally {
+                echo 'finally block'
+            }
+        }
+    },
+    windows: {
+        node('windows') {
+            bat "cd C:\\Users\\AShinde\\Desktop"
+            bat "abc.cmd"
+            sleep 1000
+        }
+    },
+    
+    windows: {
+        node('windows') {
+            bat "cd C:\\Users\\AShinde\\Desktop"
+            bat "abc1.cmd"
+        }
+    }
+    
+    
         }
     
      stage('test') {
