@@ -12,6 +12,8 @@ pipeline {
             parallel
              {
                   stage('Test On Windows') {
+                    steps {
+                        
                     
              	    		try
              	    		 {
@@ -23,7 +25,7 @@ pipeline {
                           {
                             echo 'finally block'
                           }
-                  
+              }    
          }
         
        }     
