@@ -28,8 +28,27 @@ pipeline {
                          
               }    
          }
-        
-       }     
+         
+        stage('second stage testing') {
+                    steps {
+                        
+                    
+             	    	 dir("C:\\Users\\AShinde\\Desktop") {
+             	    		
+                				
+            					bat "abc1.cmd"
+            					sleep 30
+               	      	   
+                         
+                         
+                            echo 'finally block vchfghfgh'
+                            }
+                         
+              }    
+         }
+       
+       }
+            
        
  }
     
