@@ -9,29 +9,25 @@ pipeline {
             }*/
             
             
-            parallel linux:
+            parallel
              {
-                  node('linux') 
-                  {
-                    	checkout scm
+                  
+                    
              	    		try
              	    		 {
-                				unstash 'app'
-                                sh 'make check'
+                				bat "cd C:\\Users\\AShinde\\Desktop"
+            					bat "abc.cmd"
+            					sleep 1000
                	      	    }
                           finally 
                           {
                             echo 'finally block'
                           }
-                  }
-         },
-        windows: {
-             node('windows') {
-            bat "cd C:\\Users\\AShinde\\Desktop"
-            bat "abc.cmd"
-            sleep 1000
-        }
-    }
+                  
+         }
+        
+            
+       
  }
     
      stage('test') {
