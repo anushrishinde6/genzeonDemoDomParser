@@ -15,16 +15,16 @@ pipeline {
                     steps {
                         
                     
-             	    		try
-             	    		 {
+             	    	
+             	    		
                 				bat "cd C:\\Users\\AShinde\\Desktop"
             					bat "abc.cmd"
             					sleep 1000
-               	      	    }
-                          finally 
-                          {
+               	      	   
+                         
+                         
                             echo 'finally block'
-                          }
+                         
               }    
          }
         
