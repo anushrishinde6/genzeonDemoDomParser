@@ -29,7 +29,7 @@ pipeline {
         }
     },
     
-    windows: {
+    windows1: {
         node('windows') {
             bat "cd C:\\Users\\AShinde\\Desktop"
             bat "abc1.cmd"
