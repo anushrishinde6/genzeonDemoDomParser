@@ -19,7 +19,7 @@ pipeline {
              	    		
                 				
             					bat "abc.cmd"
-            					sleep 30
+            					sleep 60
                	      	   
                          
                          
